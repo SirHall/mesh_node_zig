@@ -49,4 +49,4 @@ endif()
 # create map/bin/hex file etc.
 pico_add_extra_outputs(blink)
 
-# add url via pico_set_program_url
+add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/mesh_node/)
